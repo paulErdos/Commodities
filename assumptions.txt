@@ -1,0 +1,3 @@
+1. They didn't say anything specific about date ranges. They literally said:
+   "... from these two URLs"
+   So just go with the default date ranges. 
