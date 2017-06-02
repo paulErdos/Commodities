@@ -1,1 +1,9 @@
-https://stackoverflow.com/questions/15540405/unable-to-curl-a-remote-file
+Curl:
+* https://stackoverflow.com/questions/15540405/unable-to-curl-a-remote-file
+
+Sed:
+* https://stackoverflow.com/questions/32085045/remove-line-break-every-nth-line-using-sed
+
+Python:
+* https://docs.python.org/2/library/re.html
+* https://stackoverflow.com/questions/275018/how-can-i-remove-chomp-a-newline-in-python
