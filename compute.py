@@ -129,4 +129,4 @@ Selection = select(Parameters['start'], Parameters['end'], Table)
 mean = np.mean(Selection)
 variance = np.var(Selection)
 
-print Parameters['ctype'] + " " + str(mean) + " " + str(variance)
+print "%s %0.2f %0.2f" % (Parameters['ctype'], mean, variance)
