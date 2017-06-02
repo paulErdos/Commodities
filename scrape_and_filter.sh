@@ -17,8 +17,8 @@ echo "Date,Price" > data_silver.csv
 # For all of those, grab all the ones that don't contain a "%"
 # Then remove the HTML tags and commas, replace every other newline with a
 # comma and write the results to a file.
-cat page_gold | grep data-real-value | grep class | egrep -v "%" | sed 's:[ ]*<[^>]*>::g' | sed 's/,//' | sed 'N;s/\n/,/' > data_gold.csv
-cat page_silver | grep data-real-value | grep class | egrep -v "%" | sed 's:[ ]*<[^>]*>::g' | sed 's/,//' | sed 'N;s/\n/,/' > data_silver.csv
+cat page_gold | grep data-real-value | grep class | egrep -v "%" | sed 's:[ ]*<[^>]*>::g' | sed 's/,//' | sed 'N;s/\n/,/' >> data_gold.csv
+cat page_silver | grep data-real-value | grep class | egrep -v "%" | sed 's:[ ]*<[^>]*>::g' | sed 's/,//' | sed 'N;s/\n/,/' >> data_silver.csv
 
 # Remove the page sources.
 rm page_gold page_silver
